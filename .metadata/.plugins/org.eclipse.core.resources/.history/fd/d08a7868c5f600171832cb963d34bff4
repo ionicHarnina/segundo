@@ -1,0 +1,11 @@
+package FactoryMethod;
+
+public class CreadorConcreto implements CreadorAbstracto {
+
+	@Override
+	public ProductoAbstracto factoria(int ve) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

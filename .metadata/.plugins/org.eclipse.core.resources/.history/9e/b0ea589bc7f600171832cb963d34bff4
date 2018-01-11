@@ -1,0 +1,11 @@
+package FactoryMethodDos;
+
+public class creadorConcretoReducido extends CreadorAbstracto {
+
+	@Override
+	public Factura creaFactura() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

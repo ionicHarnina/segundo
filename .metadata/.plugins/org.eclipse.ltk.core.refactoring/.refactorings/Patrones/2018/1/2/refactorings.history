@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;FactoryMethodDos.CreadorConcreto&apos; to &apos;CreadorConcretoIVA&apos;&#x0D;&#x0A;- Original project: &apos;Patrones&apos;&#x0D;&#x0A;- Original element: &apos;FactoryMethodDos.CreadorConcreto&apos;&#x0D;&#x0A;- Renamed element: &apos;FactoryMethodDos.CreadorConcretoIVA&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;CreadorConcreto&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;FactoryMethodDos{CreadorConcreto.java[CreadorConcreto" matchStrategy="1" name="CreadorConcretoIVA" qualified="false" references="true" similarDeclarations="false" stamp="1515672212245" textual="false" version="1.0"/>
+</session>

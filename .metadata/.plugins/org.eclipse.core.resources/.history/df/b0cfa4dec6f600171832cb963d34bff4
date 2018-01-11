@@ -1,0 +1,9 @@
+
+public class CreadorConcreto extends CreadorAbstracto {
+
+	@Override
+	public Factura creaFactura() {
+		return new FacturaIva();
+	}
+
+}
