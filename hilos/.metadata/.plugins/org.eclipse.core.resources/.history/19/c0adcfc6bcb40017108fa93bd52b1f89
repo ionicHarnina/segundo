@@ -1,0 +1,33 @@
+package Imaginaria;
+
+public class ColaSagrada extends Thread {
+	private Cola fila = new Cola();
+	private Lago lagoSagrado = Lago.getInstance();
+
+	// Singleton
+	private static ColaSagrada instancia = new ColaSagrada();
+
+	private ColaSagrada() {
+		Fuente.getInstance().start();
+	}
+	public static ColaSagrada getInstance() {
+		return instancia;
+	}
+	
+	public void solicitarPuesto(Seres ser) {
+		fila.ingresarCola(ser);
+	}
+	
+	@Override
+	public void run() {
+		super.run();
+		while(true){
+			lagoSagrado.beber();
+			Seres ser=fila.consumirTurno();
+			if(ser!=null){
+				ser.beber();
+				System.out.println("se esta alimentando " + ser.getName());
+			}
+		}
+	}
+}
