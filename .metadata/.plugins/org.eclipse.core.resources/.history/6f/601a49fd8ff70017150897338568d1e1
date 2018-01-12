@@ -1,0 +1,8 @@
+package FactoryMethodIdiomas;
+
+public class Prueba {
+public static void main(String[] args) {
+	//necesito elegeir una implementacion concreta
+	TranslatoraAbstracto translatoraAbstracto=new TraductorManager().getTraductor(new TranslatorInglesConcreto());
+}
+}

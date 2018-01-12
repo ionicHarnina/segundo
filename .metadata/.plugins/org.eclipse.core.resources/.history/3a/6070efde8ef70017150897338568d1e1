@@ -1,0 +1,5 @@
+package FactoryMethodIdiomas;
+
+public abstract class CreadorAbstracto {
+public abstract TraducirCifraAbstracta crearTranslator();
+}

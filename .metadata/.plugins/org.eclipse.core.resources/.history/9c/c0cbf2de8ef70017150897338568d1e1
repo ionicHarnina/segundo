@@ -1,0 +1,6 @@
+package FactoryMethodIdiomas;
+
+public abstract class TraducirCifraAbstracta {
+
+	public abstract String dimeCifra(int numero);
+}

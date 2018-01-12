@@ -9,4 +9,10 @@
 <fullyQualifiedTypeName name="FactoryMethodDos.FacturaIvaReducido"/>
 <fullyQualifiedTypeName name="FactoryMethodDos.FacturaManager"/>
 <fullyQualifiedTypeName name="FactoryMethodDos.creadorConcretoReducido"/>
+<fullyQualifiedTypeName name="FactoryMethodIdiomas.TraducirCifraAbstracta"/>
+<fullyQualifiedTypeName name="FactoryMethodIdiomas.CreadorAbstracto"/>
+<fullyQualifiedTypeName name="FactoryMethodIdiomas.TranslatoraAbstracto"/>
+<fullyQualifiedTypeName name="FactoryMethodIdiomas.TraductorManager"/>
+<fullyQualifiedTypeName name="FactoryMethodIdiomas.TranslatorInglesConcreto"/>
+<fullyQualifiedTypeName name="FactoryMethodIdiomas.CreadorInglesConcreto"/>
 </qualifiedTypeNameHistroy>
