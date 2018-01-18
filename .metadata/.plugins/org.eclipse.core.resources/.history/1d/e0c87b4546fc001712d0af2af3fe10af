@@ -1,0 +1,5 @@
+package acop03ontrol;
+
+public enum Tipo {
+	solucionA, solucionB
+}
